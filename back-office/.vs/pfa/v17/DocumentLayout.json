@@ -1,0 +1,369 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\pfa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|c:\\users\\pc\\source\\repos\\pfa\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|c:\\users\\pc\\source\\repos\\pfa\\produit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:produit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\produit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:produit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|c:\\users\\pc\\source\\repos\\pfa\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\offre.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:offre.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\produit.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:produit.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\livreur.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:livreur.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\offre.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:offre.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\livreur.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:livreur.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\migrations\\202504301544259_removeadminclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:migrations\\202504301544259_removeadminclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\offre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\offre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\livraisoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\livraisoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\livreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\livreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\avis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\avis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\models\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:models\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\offre.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:offre.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|C:\\Users\\pc\\source\\repos\\pfa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2AC492DF-0096-4D9C-8CB4-542C26425A12}|pfa.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Livreur.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Livreur.aspx.cs",
+              "RelativeDocumentMoniker": "Livreur.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Livreur.aspx.cs",
+              "RelativeToolTip": "Livreur.aspx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:44:10.556Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Livreur.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Livreur.aspx",
+              "RelativeDocumentMoniker": "Livreur.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Livreur.aspx",
+              "RelativeToolTip": "Livreur.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-29T21:43:04.972Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:626949940:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T16:24:59.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-04T16:24:40.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produit.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Produit.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Produit.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Produit.aspx.designer.cs",
+              "RelativeToolTip": "Produit.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:38:03.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "202504301544259_RemoveAdminClient.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Migrations\\202504301544259_RemoveAdminClient.cs",
+              "RelativeDocumentMoniker": "Migrations\\202504301544259_RemoveAdminClient.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Migrations\\202504301544259_RemoveAdminClient.cs",
+              "RelativeToolTip": "Migrations\\202504301544259_RemoveAdminClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:44:33.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-29T22:49:58.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Offre.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Offre.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Offre.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Offre.aspx.designer.cs",
+              "RelativeToolTip": "Offre.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:29:25.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Offre.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Offre.aspx.cs",
+              "RelativeDocumentMoniker": "Offre.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Offre.aspx.cs",
+              "RelativeToolTip": "Offre.aspx.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:21:01.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Offre.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Offre.aspx",
+              "RelativeDocumentMoniker": "Offre.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Offre.aspx",
+              "RelativeToolTip": "Offre.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-29T22:20:40.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Produit.aspx.cs",
+              "RelativeDocumentMoniker": "Produit.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Produit.aspx.cs",
+              "RelativeToolTip": "Produit.aspx.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAYwI0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:17:16.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produit.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Produit.aspx",
+              "RelativeDocumentMoniker": "Produit.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Produit.aspx",
+              "RelativeToolTip": "Produit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-29T22:16:48.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:42:17.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAACQAAAAAAAAAAAAjwCkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-29T17:33:56.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "livraisonContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\livraisonContext.cs",
+              "RelativeDocumentMoniker": "Models\\livraisonContext.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\livraisonContext.cs",
+              "RelativeToolTip": "Models\\livraisonContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:25:06.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Avis.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Avis.cs",
+              "RelativeDocumentMoniker": "Models\\Avis.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Avis.cs",
+              "RelativeToolTip": "Models\\Avis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:22:44.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Compte.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Compte.cs",
+              "RelativeDocumentMoniker": "Models\\Compte.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Compte.cs",
+              "RelativeToolTip": "Models\\Compte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:17:29.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Commande.cs",
+              "RelativeDocumentMoniker": "Models\\Commande.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Commande.cs",
+              "RelativeToolTip": "Models\\Commande.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:45:52.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Offre.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Offre.cs",
+              "RelativeDocumentMoniker": "Models\\Offre.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Offre.cs",
+              "RelativeToolTip": "Models\\Offre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:36:09.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Produit.cs",
+              "RelativeToolTip": "Models\\Produit.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:33:21.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Livreur.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Livreur.cs",
+              "RelativeDocumentMoniker": "Models\\Livreur.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\pfa\\Models\\Livreur.cs",
+              "RelativeToolTip": "Models\\Livreur.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:24:26.655Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
