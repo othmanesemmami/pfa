@@ -179,8 +179,8 @@ public class Vetement extends AppCompatActivity {
 
         historiqueNav.setOnClickListener(v -> {
             // Implémenter la navigation vers l'historique
-            Toast.makeText(Vetement.this, "Historique des commandes", Toast.LENGTH_SHORT).show();
-        });
+            Intent intent = new Intent(Vetement.this, Historique.class);
+            startActivity(intent);        });
 
         profilNav.setOnClickListener(v -> {
             // Implémenter la navigation vers le profil
@@ -202,10 +202,24 @@ public class Vetement extends AppCompatActivity {
             this.quantity = quantity;
         }
 
-        public int getProductId() { return productId; }
-        public String getProductName() { return productName; }
-        public double getPrice() { return price; }
-        public int getQuantity() { return quantity; }
-        public void setQuantity(int quantity) { this.quantity = quantity; }
+        public int getProductId() {
+            return productId;
+        }
+
+        public String getProductName() {
+            return productName;
+        }
+
+        public double getPrice() {
+            return price;
+        }
+
+        public int getQuantity() {
+            return quantity;
+        }
+
+        public void setQuantity(int quantity) {
+            this.quantity = quantity;
+        }
     }
 }

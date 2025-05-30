@@ -179,7 +179,9 @@ public class Electronique extends AppCompatActivity {
 
         historiqueNav.setOnClickListener(v -> {
             // Implémenter la navigation vers l'historique
-            Toast.makeText(Electronique.this, "Historique des commandes", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Electronique.this, Historique.class);
+            startActivity(intent);
+
         });
 
         profilNav.setOnClickListener(v -> {

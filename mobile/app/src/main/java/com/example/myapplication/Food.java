@@ -2,9 +2,12 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -20,8 +23,10 @@ import java.util.Map;
 
 public class Food extends AppCompatActivity {
 
-    // Map pour stocker les quantités de chaque produit
+    // Map pour stocker les informations des produits
     private Map<Integer, ProductInfo> productInfoMap = new HashMap<>();
+    // Liste des CardViews pour chaque produit
+    private List<CardView> productCards = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +40,6 @@ public class Food extends AppCompatActivity {
         // Configurer le bouton du panier
         ImageButton btnPanier = findViewById(R.id.btnPanier);
         btnPanier.setOnClickListener(v -> {
-            // Naviguer vers l'activité du panier
             Intent intent = new Intent(Food.this, CartActivity.class);
             startActivity(intent);
         });
@@ -43,19 +47,85 @@ public class Food extends AppCompatActivity {
         // Initialiser les produits
         initializeProducts();
 
+        // Stocker les références aux CardViews des produits
+        storeProductCards();
+
         // Configurer les contrôles pour tous les produits
         setupProductControls();
 
         // Configurer la navigation du bas
         setupBottomNavigation();
+
+        // Configurer la barre de recherche
+        setupSearchBar();
     }
 
     private void initializeProducts() {
         // Définir les informations des produits
-        productInfoMap.put(1, new ProductInfo(1, "Pizza Margherita", 65.00, 1));
-        productInfoMap.put(2, new ProductInfo(2, "Tacos Mexicain", 55.00, 1));
-        productInfoMap.put(3, new ProductInfo(3, "Poulet Frit", 60.00, 1));
-        productInfoMap.put(4, new ProductInfo(4, "Burger Spécial", 75.00, 1));
+        productInfoMap.put(1, new ProductInfo(1, "Pizza Margherita", 65.00, 1, "Pâte fine, sauce tomate maison, mozzarella, basilic."));
+        productInfoMap.put(2, new ProductInfo(2, "Tacos Mexicain", 55.00, 1, "Tortilla de maïs, poulet mariné, salsa piquante, guacamole maison, crème fraîche et fromage râpé."));
+        productInfoMap.put(3, new ProductInfo(3, "Poulet Frit", 60.00, 1, "6 pièces marinées, panées, sauces au choix."));
+        productInfoMap.put(4, new ProductInfo(4, "Burger Spécial", 75.00, 1, "Steak 150g, cheddar, salade, tomate, frites maison."));
+    }
+
+    private void storeProductCards() {
+        // Trouver toutes les CardView dans le GridLayout
+        ViewGroup gridProducts = findViewById(R.id.gridProducts);
+        int childCount = gridProducts.getChildCount();
+
+        for (int i = 0; i < childCount; i++) {
+            View child = gridProducts.getChildAt(i);
+            if (child instanceof CardView) {
+                productCards.add((CardView) child);
+            }
+        }
+    }
+
+    private void setupSearchBar() {
+        EditText searchBar = findViewById(R.id.searchBar);
+        searchBar.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                // Non utilisé
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                // Non utilisé
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                filterProducts(s.toString());
+            }
+        });
+    }
+
+    private void filterProducts(String query) {
+        query = query.toLowerCase().trim();
+
+        // Si la requête est vide, afficher tous les produits
+        if (query.isEmpty()) {
+            for (CardView card : productCards) {
+                card.setVisibility(View.VISIBLE);
+            }
+            return;
+        }
+
+        // Parcourir chaque carte de produit
+        for (int i = 0; i < productCards.size(); i++) {
+            CardView card = productCards.get(i);
+            ProductInfo info = productInfoMap.get(i + 1); // i+1 car les IDs commencent à 1
+
+            if (info != null) {
+                // Vérifier si le nom ou la description du produit contient la requête
+                boolean matches = info.getProductName().toLowerCase().contains(query) ||
+                        info.getDescription().toLowerCase().contains(query);
+
+                // Afficher ou masquer la carte en fonction du résultat
+                card.setVisibility(matches ? View.VISIBLE : View.GONE);
+            }
+        }
     }
 
     private void setupProductControls() {
@@ -182,7 +252,8 @@ public class Food extends AppCompatActivity {
 
         historiqueNav.setOnClickListener(v -> {
             // Implémenter la navigation vers l'historique
-            Toast.makeText(Food.this, "Historique des commandes", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Food.this, Historique.class);
+            startActivity(intent);
         });
 
         profilNav.setOnClickListener(v -> {
@@ -197,12 +268,14 @@ public class Food extends AppCompatActivity {
         private String productName;
         private double price;
         private int quantity;
+        private String description;
 
-        public ProductInfo(int productId, String productName, double price, int quantity) {
+        public ProductInfo(int productId, String productName, double price, int quantity, String description) {
             this.productId = productId;
             this.productName = productName;
             this.price = price;
             this.quantity = quantity;
+            this.description = description;
         }
 
         public int getProductId() { return productId; }
@@ -210,5 +283,6 @@ public class Food extends AppCompatActivity {
         public double getPrice() { return price; }
         public int getQuantity() { return quantity; }
         public void setQuantity(int quantity) { this.quantity = quantity; }
+        public String getDescription() { return description; }
     }
 }

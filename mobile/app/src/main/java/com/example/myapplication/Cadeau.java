@@ -181,8 +181,8 @@ public class Cadeau extends AppCompatActivity {
 
         historiqueNav.setOnClickListener(v -> {
             // Implémenter la navigation vers l'historique
-            Toast.makeText(Cadeau.this, "Historique des commandes", Toast.LENGTH_SHORT).show();
-        });
+            Intent intent = new Intent(Cadeau.this, Historique.class);
+            startActivity(intent);        });
 
         profilNav.setOnClickListener(v -> {
             // Implémenter la navigation vers le profil
